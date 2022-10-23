@@ -34,3 +34,8 @@ function SubmitInquire() {
 
 
 }
+
+function test() {
+alert("hi");
+
+}
