@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <?php
+require "config/function.php";
+?>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Aqua Water Purifier | Smarteyeapps.com</title>
@@ -55,7 +59,8 @@
                                 background: #5F17DF;
                                 background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
                                 background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
-                                background: linear-gradient(to bottom right, #5F17DF, #1D76FA);">Send a Request</button>
+                                background: linear-gradient(to bottom right, #5F17DF, #1D76FA);">Send a
+                                    Request</button>
                             </li>
                         </ul>
                     </div>
@@ -69,9 +74,12 @@
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item ">
@@ -81,7 +89,9 @@
                         <div class="col-lg-6 animate__animated  animate__bounceInLeft text-start ">
                             <h1 class="fs-12 fw-bolder text-start ">Water Filter <br><span style="color:#4f32e7;">online
                                     shop</span> </h1>
-                            <p class="text-dark d-none d-md-block text-start">There are many different varieties of flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
+                            <p class="text-dark d-none d-md-block text-start">There are many different varieties of
+                                flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
                             </p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
                                 <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="background-color: ;/* Created with https://www.css-gradient.com */
@@ -106,7 +116,9 @@
                         <div class="col-lg-6  animate__animated  animate__bounceInLeft">
                             <h1 class="fs-12 fw-bolder text-start">Aqua Filter <br><span style="color:#4f32e7;">online
                                     shop</span> </h1>
-                            <p class="d-none d-md-block text-dark text-start">There are many different varieties of flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
+                            <p class="d-none d-md-block text-dark text-start">There are many different varieties of
+                                flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
                                 <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="background-color: ;/* Created with https://www.css-gradient.com */
                                 background: #5F17DF;
@@ -125,12 +137,14 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"><i
                     class="bi fs-4 text-dark bi-chevron-left"></i></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"><i
                     class="bi fs-4 text-dark bi-chevron-right"></i></span>
             <span class="visually-hidden">Next</span>
@@ -152,7 +166,8 @@
                             What’s Our Story
                         </h2>
                         <span class="line5"> <img src="img/bg/circle_left.png" alt="circle_left"></span>
-                        <p>Our company was founded in 2008. Water Brand bottle is great for drinking, cooking, activities, and even for children. The product is certified in 50 countries.</p>
+                        <p>Our company was founded in 2008. Water Brand bottle is great for drinking, cooking,
+                            activities, and even for children. The product is certified in 50 countries.</p>
                     </div>
 
                 </div>
@@ -161,7 +176,8 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30"
+                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon1.png" alt="icon01">
                         </div>
@@ -175,7 +191,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30"
+                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon2.png" alt="icon01">
                         </div>
@@ -189,7 +206,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30"
+                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon3.png" alt="icon01">
                         </div>
@@ -204,7 +222,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30"
+                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon4.png" alt="icon01">
                         </div>
@@ -244,10 +263,14 @@
 
                         </div>
 
-                        <p>Donec dictum non eros ut sollicitudin. Sed vel nisl nec odio venenatis pretium. Aenean a condimentum metus. Nulla scelerisque elit aliquet, volutpat lorem ac, accumsan enim. Duis malesuada varius leo, eu pellentesque metus pharetra
+                        <p>Donec dictum non eros ut sollicitudin. Sed vel nisl nec odio venenatis pretium. Aenean a
+                            condimentum metus. Nulla scelerisque elit aliquet, volutpat lorem ac, accumsan enim. Duis
+                            malesuada varius leo, eu pellentesque metus pharetra
                             a. Nam commodo ut diam ut laoreet.
                         </p>
-                        <p>Morbi pretium, nisl sit amet placerat imperdiet, enim massa venenatis purus, in tincidunt lorem augue ac nunc. Pellentesque risus massa, vulputate cursus tortor quis, iaculis maximus neque.Aenean hendrerit, libero sed viverra auctor.</p>
+                        <p>Morbi pretium, nisl sit amet placerat imperdiet, enim massa venenatis purus, in tincidunt
+                            lorem augue ac nunc. Pellentesque risus massa, vulputate cursus tortor quis, iaculis maximus
+                            neque.Aenean hendrerit, libero sed viverra auctor.</p>
                         <div class="about-content3">
                             <div class="row">
                                 <div class="col-md-12">
@@ -278,7 +301,8 @@
     </section>
 
     <!-- ##################### Our Products Starts Here #################### -->
-    <div class="counter-area p-relative pt-80 pb-80" style="background: url(img/bg/counter-bg.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+    <div class="counter-area p-relative pt-80 pb-80"
+        style="background: url(img/bg/counter-bg.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
         <div class="container">
 
             <div class="row align-items-center">
@@ -293,7 +317,8 @@
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="row text-center">
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                                data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn01.png" alt="img">
                                 </div>
@@ -306,7 +331,8 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                                data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn02.png" alt="img">
                                 </div>
@@ -319,7 +345,8 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                                data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn03.png" alt="img">
                                 </div>
@@ -332,7 +359,8 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                                data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn04.png" alt="img">
                                 </div>
@@ -365,7 +393,8 @@
                             What’s Our Story
                         </h2>
                         <span class="line5"> <img src="img/bg/circle_left.png" alt="circle_left"></span>
-                        <p>Our company was founded in 2008. Water Brand bottle is great for drinking, cooking, activities, and even for children. The product is certified in 50 countries.</p>
+                        <p>Our company was founded in 2008. Water Brand bottle is great for drinking, cooking,
+                            activities, and even for children. The product is certified in 50 countries.</p>
                     </div>
 
                 </div>
@@ -377,7 +406,8 @@
 
                                 <div class="text pt-10">
                                     <h4>No Preservatives</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                                 <div class="icon-right"><img src="img/icon/fe-icon01.png" alt="icon01"></div>
@@ -386,7 +416,8 @@
 
                                 <div class="text pt-10">
                                     <h4>Add Micro Mineral</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                                 <div class="icon-right"><img src="img/icon/fe-icon05.png" alt="icon01"></div>
@@ -395,7 +426,8 @@
 
                                 <div class="text pt-10">
                                     <h4>Natural Quality</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                                 <div class="icon-right"><img src="img/icon/fe-icon07.png" alt="icon01"></div>
@@ -422,7 +454,8 @@
                                 <div class="icon"><img src="img/icon/fe-icon04.png" alt="icon01"></div>
                                 <div class="text pt-10">
                                     <h4>Antioxidant</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                             </li>
@@ -430,7 +463,8 @@
                                 <div class="icon"><img src="img/icon/fe-icon06.png" alt="icon01"></div>
                                 <div class="text pt-10">
                                     <h4>All Vitamins</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                             </li>
@@ -438,7 +472,8 @@
                                 <div class="icon"><img src="img/icon/fe-icon08.png" alt="icon01"></div>
                                 <div class="text pt-10">
                                     <h4>Taste Like Home</h4>
-                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel sodale.
+                                    <p>Praesent porttitor, velit et dapibu eleifend, ligula sapien placerat sem, vel
+                                        sodale.
                                     </p>
                                 </div>
                             </li>
@@ -455,13 +490,15 @@
     <!-- service-details2-area-end -->
 
     <!-- video-area -->
-    <section id="video" class="video-area about-p pb-120 p-relative" style="background-image:url(img/bg/video-bg.png); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;">
+    <section id="video" class="video-area about-p pb-120 p-relative"
+        style="background-image:url(img/bg/video-bg.png); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png)">
                         <div class="s-video-content">
-                            <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="img/bg/play-button.png" alt="circle_right"></a>
+                            <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img
+                                    src="img/bg/play-button.png" alt="circle_right"></a>
 
                         </div>
                     </div>
@@ -473,7 +510,9 @@
                             See How We Work
                         </h2>
                         <span class="line5"> <img src="img/bg/circle_left_w.png" alt="circle_left"></span>
-                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean iaculis bibendum justo, vitae lobortis augue posuere eu. Nulla aliquet varius libero eu sagittis. Sed fermentum varius hendrerit. Ut
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                            iaculis bibendum justo, vitae lobortis augue posuere eu. Nulla aliquet varius libero eu
+                            sagittis. Sed fermentum varius hendrerit. Ut
                             velit libero.</p>
                         <div class="slider-btn mt-30">
                             <a href="contact.html" class="btn ss-btn">Contact Us</a>
@@ -648,7 +687,9 @@
                                 <img src="img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <h3>Taste Like Haven </h3>
-                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
+                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa
+                                finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue
+                                fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
                             <div class="testi-author">
                                 <img src="img/testimonial/testi_avatar.png" alt="img">
                                 <div class="ta-info">
@@ -664,7 +705,9 @@
                                 <img src="img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <h3>Taste Like Haven </h3>
-                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
+                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa
+                                finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue
+                                fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
                             <div class="testi-author">
                                 <img src="img/testimonial/testi_avatar.png" alt="img">
                                 <div class="ta-info">
@@ -680,7 +723,9 @@
                                 <img src="img/testimonial/qt-icon.png" alt="img">
                             </div>
                             <h3>Taste Like Haven </h3>
-                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
+                            <p>Etiam quis lacinia ipsum. Aliquam blandit, mauris nec molestie interdum, quam massa
+                                finibus turpis, ut eleifend tellus massa eget nunc. Maecenas luctus diam id augue
+                                fringilla ornare. Sed varius massa non sem rutrum malesuada.</p>
                             <div class="testi-author">
                                 <img src="img/testimonial/testi_avatar.png" alt="img">
                                 <div class="ta-info">
@@ -814,11 +859,19 @@
                 </div>
             </div>
             <div class="row">
+
+                <?php
+            
+            for($i=0;$i<getLastUpdate()->num_rows;$i++){
+$updateData = getLastUpdate()->fetch_assoc();
+
+?>
                 <div class="col-lg-6 col-md-12">
                     <div class="single-post2 mb-30">
 
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="img/blog/inner_b1.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="config/<?php echo $updateData["update_img"] ?>"
+                                    alt="img"></a>
                             <div class="date">
                                 <i class="fal fa-calendar-alt"></i> 24th March 2021
                             </div>
@@ -828,8 +881,7 @@
 
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h4><a href="blog-details.html">Aliquam luctus nisi eget orci facilisis, at commodo
-                                            risus tincidunt.</a></h4>
+                                    <h4><a href="#"><?php echo $updateData["update_text"] ?></a></h4>
                                 </div>
                             </div>
 
@@ -843,35 +895,15 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="single-post2 mb-30">
-
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="img/blog/inner_b1.jpg" alt="img"></a>
-                            <div class="date">
-                                <i class="fal fa-calendar-alt"></i> 24th March 2021
-                            </div>
-                        </div>
-                        <div class="blog-content2">
 
 
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h4><a href="blog-details.html">Aliquam luctus nisi eget orci facilisis, at commodo
-                                            risus tincidunt.</a></h4>
-                                </div>
-                            </div>
+                <?php
 
-                            <div class="row align-items-center">
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="blog-btn"><a href="blog-details.html">Read More <i
-                                                class="fas fa-angle-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
+            }
+            ?>
 
-                    </div>
-                </div>
+
+
 
             </div>
         </div>
@@ -896,9 +928,10 @@
                             </h2>
                             <span class="line5"> <img src="img/bg/circle_left.png" alt="circle_left"></span>
                         </div>
-                        <p>Vivamus vitae nisi faucibus, congue erat in, lobortis diam. Suspendisse nisi quam, ultrices ut placerat non, dignissim et nisi. </p>
+                        <p>Vivamus vitae nisi faucibus, congue erat in, lobortis diam. Suspendisse nisi quam, ultrices
+                            ut placerat non, dignissim et nisi. </p>
 
-                        <div  class="contact-form mt-30">
+                        <div class="contact-form mt-30">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="contact-field p-relative c-name mb-30">
@@ -928,14 +961,16 @@
 
                                 <div class="col-lg-12">
                                     <div class="contact-field p-relative c-message mb-30">
-                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="10"
+                                            placeholder="Write comments"></textarea>
                                     </div>
                                     <div class="slider-btn">
 
-                                        <button onclick="SubmitInquire()" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submint
+                                        <button onclick="SubmitInquire()" class="btn ss-btn"
+                                            data-animation="fadeInRight" data-delay=".8s">Submint
                                             Now</button>
-                                    
-                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
 
@@ -999,7 +1034,9 @@
                     <div class="col-md-3 foot-about">
                         <h4>About US</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit libero pellentesque libero interdum, id mattis felis dictum. Praesent eget lacus tempor justo efficitur malesuada. Cras ut suscipit nisi.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit libero pellentesque
+                            libero interdum, id mattis felis dictum. Praesent eget lacus tempor justo efficitur
+                            malesuada. Cras ut suscipit nisi.</p>
 
                         <ul>
                             <li>23 Rose Stren Melbourn</li>
@@ -1054,10 +1091,12 @@
 
                     <div class="col-md-3 foot-news">
                         <h4>News Letter</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget eros. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget
+                            eros. </p>
 
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control mb-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control mb-0" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <span class="input-group-text bg-primary" id="basic-addon2"><i
                                         class="bi text-white bi-send"></i></span>
@@ -1116,4 +1155,5 @@
 <script src="js/element-in-view.js"></script>
 <script src="js/main.js"></script>
 <script src="js/function.js"></script>
+
 </html>
