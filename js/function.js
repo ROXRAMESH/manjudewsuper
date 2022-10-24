@@ -34,3 +34,29 @@ function SubmitInquire() {
 
 
 }
+
+
+function submitFeedback(){
+    var cn = document.getElementById("cn").value;
+    var fb = document.getElementById("fb").value;
+
+    var img = document.getElementById("img");
+
+    var f = new FormData();
+    f.append("cn", cn);
+    f.append("fb", fb);
+    f.append("img", img.files[0]);
+    
+    var r = new XMLHttpRequest();
+    r.onreadystatechange = function() {
+        if (r.readyState == 4) {
+            var text = r.responseText;
+
+            alert(text);
+
+
+        }
+    };
+    r.open("POST", "../config/add_client_feedback.php", true);
+    r.send(f);
+}
