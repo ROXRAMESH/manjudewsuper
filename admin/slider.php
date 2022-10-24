@@ -12,7 +12,7 @@
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
                 </svg> Dashboard<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
-        <li class="nav-title">Theme</li>
+        <!-- <li class="nav-title">Theme</li> -->
         <li class="nav-item"><a class="nav-link" href="colors.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
@@ -22,7 +22,7 @@
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
                 </svg> Typography</a></li>
         <li class="nav-title">Components</li>
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+        <!-- <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
                 </svg> Base</a>
@@ -58,8 +58,19 @@
                 <li class="nav-item"><a class="nav-link" href="base/tooltips.html"><span class="nav-icon"></span>
                         Tooltips</a></li>
             </ul>
-        </li>
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+        </li> -->
+
+    </ul>
+    <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
+</div>
+
+
+
+
+
+
+<!-- 
+<li class="nav-group"><a class="nav-link nav-group-toggle" h ref="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
                 </svg> Buttons</a>
@@ -79,8 +90,8 @@
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-notes"></use>
-                </svg> Forms</a>
-            <ul class="nav-group-items">
+                </svg> Forms</a> -->
+<!-- <ul class="nav-group-items">
                 <li class="nav-item"><a class="nav-link" href="forms/form-control.html"> Form Control</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/select.html"> Select</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/checks-radios.html"> Checks and radios</a></li>
@@ -89,8 +100,8 @@
                 <li class="nav-item"><a class="nav-link" href="forms/floating-labels.html"> Floating labels</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/layout.html"> Layout</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/validation.html"> Validation</a></li>
-            </ul>
-        </li>
+            </ul> -->
+<!-- </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
@@ -158,7 +169,4 @@
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-layers"></use>
                 </svg> Try CoreUI
                 <div class="fw-semibold">PRO</div>
-            </a></li>
-    </ul>
-    <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
-</div>
+            </a></li> -->
