@@ -83,3 +83,12 @@ function submitNewUpdate(){
     r.open("POST", "../config/add_new_update.php", true);
     r.send(f);
 }
+
+function viewModal(subj,masg){
+var m = document.getElementById("msgmodal");
+var nm = new bootstrap.Modal(m);
+document.getElementById("masg").innerHTML=subj;
+document.getElementById("masgid").innerHTML=masg;
+nm.show();
+
+}
