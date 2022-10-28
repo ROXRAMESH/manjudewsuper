@@ -85,9 +85,10 @@ function submitNewUpdate(){
 }
 
 function viewModal(subj,masg){
+
 var m = document.getElementById("msgmodal");
 var nm = new bootstrap.Modal(m);
-document.getElementById("masg").innerHTML=subj;
+document.getElementById("msubid").innerHTML=subj;
 document.getElementById("masgid").innerHTML=masg;
 nm.show();
 

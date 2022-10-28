@@ -29,7 +29,7 @@ require "../config/database.php";
                             <p id="masgid">Modal body text goes here.</p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary">Ok</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -66,7 +66,8 @@ for($x = 0;$x<$dbs->num_rows;$x++){
                             <td><?php echo $inq["lname"] ?></td>
                             <td><?php echo $inq["mobile_no"] ?></td>
                             <td><?php echo $inq["email"] ?></td>
-                            <td><button class="btn btn-primary" onclick="viewModal('1','2')">View</button></td>
+                            <td><button class="btn btn-primary"
+                                    onclick="viewModal('<?php echo $subj ?>','<?php echo $masg ?>')">View</button></td>
 
                         </tr>
 
