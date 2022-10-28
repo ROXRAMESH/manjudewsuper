@@ -862,8 +862,10 @@ require "config/function.php";
 
                 <?php
             
-            for($i=0;$i<getLastUpdate()->num_rows;$i++){
-$updateData = getLastUpdate()->fetch_assoc();
+            $lastUpdate2 =  Database::search("SELECT * FROM `latest_update`");
+
+            for($i=0;$i<$lastUpdate2->num_rows;$i++){
+$updateData = $lastUpdate2->fetch_assoc();
 
 ?>
                 <div class="col-lg-6 col-md-12">
