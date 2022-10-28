@@ -47,6 +47,7 @@ require "../config/database.php";
                             <th scope="col">Mobile</th>
                             <th scope="col">Email</th>
                             <th scope="col">View Massage</th>
+                            <th scope="col">Delete</th>
 
                         </tr>
                     </thead>
@@ -57,6 +58,7 @@ $dbs =Database::search("SELECT * FROM `inquire` INNER JOIN `email` ON email.emai
 
 for($x = 0;$x<$dbs->num_rows;$x++){
     $inq =$dbs->fetch_assoc();
+    $inqIDk = $inq["inquire_id"];
     $subj = $inq["inquire_subject"];
     $masg = $inq["inquire_message"];
     ?>
@@ -68,6 +70,10 @@ for($x = 0;$x<$dbs->num_rows;$x++){
                             <td><?php echo $inq["email"] ?></td>
                             <td><button class="btn btn-primary"
                                     onclick="viewModal('<?php echo $subj ?>','<?php echo $masg ?>')">View</button></td>
+
+                            <td><button class="btn btn-danger"
+                                    onclick="deleteInquire('<?php echo $inqIDk ?>')">Delete</button>
+                            </td>
 
                         </tr>
 
@@ -101,6 +107,11 @@ for($x = 0;$x<$dbs->num_rows;$x++){
 
 
 <!-- CoreUI and necessary plugins-->
+
+<link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
