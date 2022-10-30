@@ -719,7 +719,7 @@
     </section>
     <!-- testimonial-area-end -->
     <!-- team-area -->
-    <section id="team" class="team-area2 pt-120 pb-90" style="margin-top: -100px;">
+    <section id="team" class="team-area2 pt-120 pb-90">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 p-relative">
@@ -822,7 +822,7 @@
     <section id="blog" class="blog-area p-relative pt-120 pb-90 fix" style="background: #f3f7fd;">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12">
+                <div class="col-lg-12"  style="margin-top: -100px;">
                     <div class="section-title center-align mb-50 text-center">
                         <h2>
                             Latest Blog & News
@@ -833,7 +833,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row"  style="margin-top: -20px;">
 
                 <?php
 
@@ -849,7 +849,7 @@
                             <div class="blog-thumb2">
                                 <a href="blog-details.html"><img src="config/<?php echo $updateData["update_img"] ?>" alt="img"></a>
                                 <div class="date">
-                                    <i class="fal fa-calendar-alt"></i> 24th March 2021
+                                    <i class="fal fa-calendar-alt"></i> 24th March 2023
                                 </div>
                             </div>
                             <div class="blog-content2">
@@ -885,7 +885,7 @@
     </section>
     <!-- blog-area-end -->
     <!-- contact-area -->
-    <section id="contact" class="contact-area after-none contact-bg pt-120 pb-60 p-relative fix">
+    <section id="contact" class="contact-area after-none contact-bg pt-120 pb-60 p-relative fix"  style="margin-top: -100px;">
 
         <div class="container">
 
