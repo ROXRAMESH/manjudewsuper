@@ -719,7 +719,7 @@
     </section>
     <!-- testimonial-area-end -->
     <!-- team-area -->
-    <section id="team" class="team-area2 pt-120 pb-90">
+    <section id="team" class="team-area2 pt-120 pb-90" style="margin-top: -100px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 p-relative">
