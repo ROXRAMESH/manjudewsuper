@@ -42,7 +42,7 @@
                 <div class="row  p-2">
                     <div class="col-lg-3 p-2">
                         <a href="index.html">
-                            <img class="max-230" src="assets/images/logo.jpg" alt="">
+                            <img class="max-230" src="assets/images/logo1.jpg" alt="">
                         </a>
                         <a data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none pt-1 ps-3"><i class="bi pt-1 fs-1 cp bi-list"></i></a>
                     </div>
@@ -90,13 +90,8 @@
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
                             </p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="
-                                background: #5F17DF;
-                                background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
-                                background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
-                                background: linear-gradient(to bottom right, #5F17DF, #1D76FA);">Buy Now</button>
-                                <button class="btn btn-outline-primary ms-4 shadow fs-5 fw-bolder px-5 py-2">Buy
-                                    Now</button>
+                            <button class="btn ss-btn col-4" data-animation="fadeInRight" data-delay=".8s">Buy Now
+                                    </button>
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
@@ -106,23 +101,22 @@
                 </div>
             </div>
             <div class="carousel-item active">
-                <img src="assets/images/slider/s2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/slider/s3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                     <div class="row">
                         <div class="col-lg-6  animate__animated  animate__bounceInLeft">
                             <h1 class="fs-12 fw-bolder text-start">Aqua Filter <br><span style="color:#4f32e7;">online
                                     shop</span> </h1>
-                            <p class="d-none d-md-block text-dark text-start">There are many different varieties of
+                            <p class="d-none d-md-block text-white text-start">There are many different varieties of
                                 flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="
-                                background: #5F17DF;
-                                background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
-                                background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
-                                background: linear-gradient(to bottom right, #5F17DF, #1D76FA);">Buy Now</button>
-                                <button class="btn btn-outline-primary ms-4 shadow fs-5 fw-bolder px-5 py-2">Buy
-                                    Now</button>
+                            <button class="btn ss-btn col-4" style="margin-top: -20px;" data-animation="fadeInRight" data-delay=".8s">Buy Now
+                                    </button>
+                                <!-- <button class="btn btn-outline-primary ms-4 shadow">Buy
+                                    Now</button> -->
+
+                               
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
@@ -424,7 +418,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 pr-30 d-none d-lg-block">
                     <div class="sd-img">
-                        <img src="img/features/services-img-details2.png" alt="img">
+                        <img src="img/features/services-img-details3.png" alt="img" class="ms-4">
                     </div>
 
                 </div>
@@ -477,7 +471,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png)">
+                    <div class="s-video-wrap" style="background-image:url(img/bg/video-img1.png)">
                         <div class="s-video-content">
                             <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="img/bg/play-button.png" alt="circle_right"></a>
 
@@ -897,8 +891,8 @@
 
             <div class="row">
 
-                <div class="col-lg-6">
-                    <img src="img/bg/contact-img2.html" alt="circle_left">
+                <div class="col-lg-6 mt-5">
+                    <img src="img/bg/contact-img2.png" style="margin-left: -90px;" alt="circle_left">
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-bg02 wow fadeInLeft  animated">
@@ -965,7 +959,7 @@
     </section>
     <!-- contact-area-end -->
     <!-- brand-area -->
-    <div class="brand-area pt-60 pb-60">
+    <!-- <div class="brand-area pt-60 pb-60">
         <div class="container">
             <div class="row brand-active">
                 <div class="col-xl-2">
@@ -1001,7 +995,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- brand-area-end -->
 
 
