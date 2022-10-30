@@ -172,3 +172,42 @@ function deleteFeedback(id){
       })
 
 }
+
+function viewUpdate(id){
+
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+
+            var f = new FormData();
+            f.append("id", id);
+           
+            
+            var r = new XMLHttpRequest();
+            r.onreadystatechange = function() {
+                if (r.readyState == 4) {
+                    var text = r.responseText;
+        
+                 window.location.reload();
+        
+        
+                }
+            };
+            r.open("POST", "../config/deleteUpdate.php", true);
+            r.send(f);
+          Swal.fire(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+          )
+        }
+      })
+
+}
