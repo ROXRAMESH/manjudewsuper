@@ -6,9 +6,9 @@ require "slider.php";
 <div class="wrapper d-flex flex-column min-vh-100 bg-light">
 
     <?php
-require "header.php";
-require "../config/database.php";
-?>
+    require "header.php";
+    require "../config/database.php";
+    ?>
 
 
     <div class="body flex-grow-1 px-3">
@@ -53,33 +53,31 @@ require "../config/database.php";
                     </thead>
                     <tbody>
                         <?php
-$dbs =Database::search("SELECT * FROM `inquire` INNER JOIN `email` ON email.email_id=inquire.email_id");
- 
+                        $dbs = Database::search("SELECT * FROM `inquire` INNER JOIN `email` ON email.email_id=inquire.email_id");
 
-for($x = 0;$x<$dbs->num_rows;$x++){
-    $inq =$dbs->fetch_assoc();
-    $inqIDk = $inq["inquire_id"];
-    $subj = $inq["inquire_subject"];
-    $masg = $inq["inquire_message"];
-    ?>
-                        <tr>
-                            <th scope="row"><?php echo $inq["inquire_id"] ?></th>
-                            <td><?php echo $inq["fname"] ?></td>
-                            <td><?php echo $inq["lname"] ?></td>
-                            <td><?php echo $inq["mobile_no"] ?></td>
-                            <td><?php echo $inq["email"] ?></td>
-                            <td><button class="btn btn-primary"
-                                    onclick="viewModal('<?php echo $subj ?>','<?php echo $masg ?>')">View</button></td>
 
-                            <td><button class="btn btn-danger"
-                                    onclick="deleteInquire('<?php echo $inqIDk ?>')">Delete</button>
-                            </td>
+                        for ($x = 0; $x < $dbs->num_rows; $x++) {
+                            $inq = $dbs->fetch_assoc();
+                            $inqIDk = $inq["inquire_id"];
+                            $subj = $inq["inquire_subject"];
+                            $masg = $inq["inquire_message"];
+                        ?>
+                            <tr>
+                                <th scope="row"><?php echo $inq["inquire_id"] ?></th>
+                                <td><?php echo $inq["fname"] ?></td>
+                                <td><?php echo $inq["lname"] ?></td>
+                                <td><?php echo $inq["mobile_no"] ?></td>
+                                <td><?php echo $inq["email"] ?></td>
+                                <td><button class="btn btn-primary" onclick="viewModal('<?php echo $subj ?>','<?php echo $masg ?>')">View</button></td>
 
-                        </tr>
+                                <td><button class="btn btn-danger" onclick="deleteInquire('<?php echo $inqIDk ?>')">Delete</button>
+                                </td>
+
+                            </tr>
 
                         <?php
-}
-?>
+                        }
+                        ?>
 
 
                     </tbody>
@@ -112,14 +110,11 @@ for($x = 0;$x<$dbs->num_rows;$x++){
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
 <script src="vendors/simplebar/js/simplebar.min.js"></script>

@@ -3,8 +3,8 @@
 
 <head>
     <?php
-require "config/function.php";
-?>
+    require "config/function.php";
+    ?>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,8 +44,7 @@ require "config/function.php";
                         <a href="index.html">
                             <img class="max-230" src="assets/images/logo.jpg" alt="">
                         </a>
-                        <a data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none pt-1 ps-3"><i
-                                class="bi pt-1 fs-1 cp bi-list"></i></a>
+                        <a data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none pt-1 ps-3"><i class="bi pt-1 fs-1 cp bi-list"></i></a>
                     </div>
                     <div id="menu" class="col-lg-9 d-none pt-1 d-lg-block">
                         <ul class="fw-bold nacul fs-7">
@@ -55,7 +54,7 @@ require "config/function.php";
                             <li class="float-start p-3 px-4"><a href="blog.html">Blog</a></li>
                             <li class="float-start p-3 px-4"><a href="contact.html">Contact Us</a></li>
                             <li class="float-end d-none d-md-block pt-2">
-                                <button class="btn fw-bolder px-4 py-2" style="background-color: ;/* Created with https://www.css-gradient.com */
+                                <button class="btn fw-bolder px-4 py-2" style="
                                 background: #5F17DF;
                                 background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
                                 background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
@@ -74,12 +73,9 @@ require "config/function.php";
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item ">
@@ -94,7 +90,7 @@ require "config/function.php";
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
                             </p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="background-color: ;/* Created with https://www.css-gradient.com */
+                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="
                                 background: #5F17DF;
                                 background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
                                 background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
@@ -120,7 +116,7 @@ require "config/function.php";
                                 flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="background-color: ;/* Created with https://www.css-gradient.com */
+                                <button class="btn shadow fs-5 fw-bolder px-5 py-2" style="
                                 background: #5F17DF;
                                 background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
                                 background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
@@ -137,16 +133,12 @@ require "config/function.php";
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"><i
-                    class="bi fs-4 text-dark bi-chevron-left"></i></span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi fs-4 text-dark bi-chevron-left"></i></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"><i
-                    class="bi fs-4 text-dark bi-chevron-right"></i></span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi fs-4 text-dark bi-chevron-right"></i></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
@@ -176,8 +168,7 @@ require "config/function.php";
             <div class="row">
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30"
-                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon1.png" alt="icon01">
                         </div>
@@ -191,8 +182,7 @@ require "config/function.php";
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30"
-                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon2.png" alt="icon01">
                         </div>
@@ -206,8 +196,7 @@ require "config/function.php";
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30"
-                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon3.png" alt="icon01">
                         </div>
@@ -222,8 +211,7 @@ require "config/function.php";
                 </div>
                 <div class="col-lg-3 col-md-6">
 
-                    <div class="services-box text-center mb-30"
-                        style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+                    <div class="services-box text-center mb-30" style="background: url(img/bg/services-bg-01.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
                         <div class="services-icon">
                             <img src="img/icon/pv-icon4.png" alt="icon01">
                         </div>
@@ -301,8 +289,7 @@ require "config/function.php";
     </section>
 
     <!-- ##################### Our Products Starts Here #################### -->
-    <div class="counter-area p-relative pt-80 pb-80"
-        style="background: url(img/bg/counter-bg.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
+    <div class="counter-area p-relative pt-80 pb-80" style="background: url(img/bg/counter-bg.png) no-repeat;background-size: contain; background-position: center bottom; background-size: cover;">
         <div class="container">
 
             <div class="row align-items-center">
@@ -317,8 +304,7 @@ require "config/function.php";
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="row text-center">
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
-                                data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn01.png" alt="img">
                                 </div>
@@ -331,8 +317,7 @@ require "config/function.php";
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
-                                data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn02.png" alt="img">
                                 </div>
@@ -345,8 +330,7 @@ require "config/function.php";
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
-                                data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn03.png" alt="img">
                                 </div>
@@ -359,8 +343,7 @@ require "config/function.php";
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
-                                data-delay=".2s">
+                            <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <div class="icon">
                                     <img src="img/icon/cn-iocn04.png" alt="img">
                                 </div>
@@ -490,15 +473,13 @@ require "config/function.php";
     <!-- service-details2-area-end -->
 
     <!-- video-area -->
-    <section id="video" class="video-area about-p pb-120 p-relative"
-        style="background-image:url(img/bg/video-bg.png); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;">
+    <section id="video" class="video-area about-p pb-120 p-relative" style="background-image:url(img/bg/video-bg.png); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png)">
                         <div class="s-video-content">
-                            <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img
-                                    src="img/bg/play-button.png" alt="circle_right"></a>
+                            <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img src="img/bg/play-button.png" alt="circle_right"></a>
 
                         </div>
                     </div>
@@ -861,48 +842,46 @@ require "config/function.php";
             <div class="row">
 
                 <?php
-            
-            $lastUpdate2 =  Database::search("SELECT * FROM `latest_update`");
 
-            for($i=0;$i<$lastUpdate2->num_rows;$i++){
-$updateData = $lastUpdate2->fetch_assoc();
+                $lastUpdate2 =  Database::search("SELECT * FROM `latest_update`");
 
-?>
-                <div class="col-lg-6 col-md-12">
-                    <div class="single-post2 mb-30">
+                for ($i = 0; $i < $lastUpdate2->num_rows; $i++) {
+                    $updateData = $lastUpdate2->fetch_assoc();
 
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="config/<?php echo $updateData["update_img"] ?>"
-                                    alt="img"></a>
-                            <div class="date">
-                                <i class="fal fa-calendar-alt"></i> 24th March 2021
+                ?>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="single-post2 mb-30">
+
+                            <div class="blog-thumb2">
+                                <a href="blog-details.html"><img src="config/<?php echo $updateData["update_img"] ?>" alt="img"></a>
+                                <div class="date">
+                                    <i class="fal fa-calendar-alt"></i> 24th March 2021
+                                </div>
                             </div>
-                        </div>
-                        <div class="blog-content2">
+                            <div class="blog-content2">
 
 
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h4><a href="#"><?php echo $updateData["update_text"] ?></a></h4>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4><a href="#"><?php echo $updateData["update_text"] ?></a></h4>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="blog-btn"><a href="blog-details.html">Read More <i class="fas fa-angle-right"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="row align-items-center">
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="blog-btn"><a href="blog-details.html">Read More <i
-                                                class="fas fa-angle-right"></i></a></div>
-                                </div>
-                            </div>
                         </div>
-
                     </div>
-                </div>
 
 
                 <?php
 
-            }
-            ?>
+                }
+                ?>
 
 
 
@@ -963,13 +942,11 @@ $updateData = $lastUpdate2->fetch_assoc();
 
                                 <div class="col-lg-12">
                                     <div class="contact-field p-relative c-message mb-30">
-                                        <textarea name="message" id="message" cols="30" rows="10"
-                                            placeholder="Write comments"></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
                                     </div>
                                     <div class="slider-btn">
 
-                                        <button onclick="SubmitInquire()" class="btn ss-btn"
-                                            data-animation="fadeInRight" data-delay=".8s">Submint
+                                        <button onclick="SubmitInquire()" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submint
                                             Now</button>
 
                                     </div>
@@ -1097,11 +1074,9 @@ $updateData = $lastUpdate2->fetch_assoc();
                             eros. </p>
 
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control mb-0" placeholder="Recipient's username"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control mb-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="input-group-text bg-primary" id="basic-addon2"><i
-                                        class="bi text-white bi-send"></i></span>
+                                <span class="input-group-text bg-primary" id="basic-addon2"><i class="bi text-white bi-send"></i></span>
                             </div>
                         </div>
 
