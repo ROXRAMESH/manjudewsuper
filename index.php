@@ -90,8 +90,8 @@
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
                             </p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                            <button class="btn ss-btn col-4" data-animation="fadeInRight" data-delay=".8s">Buy Now
-                                    </button>
+                                <button class="btn ss-btn col-4" data-animation="fadeInRight" data-delay=".8s">Buy Now
+                                </button>
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
@@ -112,12 +112,12 @@
                                 flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
                             <div class="d-inline-block pt-5 text-start d-none d-lg-block">
-                            <button class="btn ss-btn col-4" style="margin-top: -20px;" data-animation="fadeInRight" data-delay=".8s">Buy Now
-                                    </button>
+                                <button class="btn ss-btn col-4" style="margin-top: -20px;" data-animation="fadeInRight" data-delay=".8s">Buy Now
+                                </button>
                                 <!-- <button class="btn btn-outline-primary ms-4 shadow">Buy
                                     Now</button> -->
 
-                               
+
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
@@ -823,7 +823,7 @@
     <section id="blog" class="blog-area p-relative pt-120 pb-90 fix" style="background: #f3f7fd;">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12"  style="margin-top: -100px;">
+                <div class="col-lg-12" style="margin-top: -100px;">
                     <div class="section-title center-align mb-50 text-center">
                         <h2>
                             Latest Blog & News
@@ -834,7 +834,7 @@
 
                 </div>
             </div>
-            <div class="row"  style="margin-top: -20px;">
+            <div class="row" style="margin-top: -20px;">
 
                 <?php
 
@@ -886,7 +886,7 @@
     </section>
     <!-- blog-area-end -->
     <!-- contact-area -->
-    <section id="contact" class="contact-area after-none contact-bg pt-120 pb-60 p-relative fix"  style="margin-top: -100px;">
+    <section id="contact" class="contact-area after-none contact-bg pt-120 pb-60 p-relative fix" style="margin-top: -100px;">
 
         <div class="container">
 
@@ -1002,11 +1002,15 @@
 
     <!--- ############ Footer Starts Here ################## -->
     <footer>
-        <div class="inner">
+        <div class="inner" style="
+                                background: #5F17DF;
+                                background: -webkit-linear-gradient(top left, #5F17DF, #1D76FA);
+                                background: -moz-linear-gradient(top left, #5F17DF, #1D76FA);
+                                background: linear-gradient(to bottom right, #5F17DF, #1D76FA);">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 foot-about">
-                        <h4>About US</h4>
+                    <div class="col-md-3 foot-about" style="color: white;">
+                        <h4 style="color: white;">About US</h4>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit libero pellentesque
                             libero interdum, id mattis felis dictum. Praesent eget lacus tempor justo efficitur
@@ -1020,13 +1024,13 @@
                     </div>
 
                     <div class="col-md-3 foot-post">
-                        <h4>Latest Posts</h4>
+                        <h4 style="color: white;">Latest Posts</h4>
 
                         <div class="post-row">
                             <div class="image">
                                 <img src="assets/images/album/a6.jpg" alt="">
                             </div>
-                            <div class="detail">
+                            <div class="detail" style="color: white;">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
                             </div>
                         </div>
@@ -1035,7 +1039,7 @@
                             <div class="image">
                                 <img src="assets/images/album/a5.jpg" alt="">
                             </div>
-                            <div class="detail">
+                            <div class="detail" style="color: white;">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
                             </div>
                         </div>
@@ -1044,28 +1048,28 @@
                             <div class="image">
                                 <img src="assets/images/album/a4.jpg" alt="">
                             </div>
-                            <div class="detail">
+                            <div class="detail" style="color: white;">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-3 foot-services">
-                        <h4>Top Category</h4>
+                        <h4 style="color: white;">Top Category</h4>
 
                         <ul>
-                            <li><a href="">Target Statergy</a></li>
-                            <li><a href="">Web Analytics</a></li>
-                            <li><a href="">Page Monitering</a></li>
-                            <li><a href="">Page Optimization</a></li>
-                            <li><a href="">Target Statergy</a></li>
-                            <li><a href="">Email Marketing</a></li>
+                            <li><a href="" style="color: white;">Target Statergy</a></li>
+                            <li><a href="" style="color: white;">Web Analytics</a></li>
+                            <li><a href="" style="color: white;">Page Monitering</a></li>
+                            <li><a href="" style="color: white;">Page Optimization</a></li>
+                            <li><a href="" style="color: white;">Target Statergy</a></li>
+                            <li><a href="" style="color: white;">Email Marketing</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-3 foot-news">
-                        <h4>News Letter</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget
+                        <h4 style="color: white;">News Letter</h4>
+                        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget
                             eros. </p>
 
                         <div class="input-group mb-3">
