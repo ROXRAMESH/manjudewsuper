@@ -77,12 +77,12 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item ">
+        <div class="carousel-inner" >
+            <div class="carousel-item " style="margin-top: 50px;">
                 <img src="img/bg/video-bg2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption   d-md-block">
+                <div class="carousel-caption   d-md-block" style="margin-top: 70px;">
                     <div class="row">
-                        <div class="col-lg-6 animate__animated  animate__bounceInLeft text-start ">
+                        <div class="col-lg-6 animate__animated  animate__bounceInLeft text-start " style="margin-top: 70px;">
                             <h1 class="fs-12 fw-bolder text-start ">Water Filter <br><span style="color:white;">online
                                     shop</span> </h1>
                             <p class="text-white d-none d-md-block text-start">There are many different varieties of
@@ -95,17 +95,17 @@
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
-                            <img class="w-100" src="assets/images/sp1.jpg" alt="">
+                            <img class="w-100" src="assets/images/sp1.jpg" alt="" style="margin-top: 80px;">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item active" style="margin-top: 50px;">
                 <img src="img/bg/video-bg2.png" class="d-block w-100" alt="...">
                 <!-- <img src="assets/images/slider/s4.jpg" class="d-block w-100" alt="..."> -->
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block" style="margin-top: 50px;">
                     <div class="row">
-                        <div class="col-lg-6  animate__animated  animate__bounceInLeft">
+                        <div class="col-lg-6  animate__animated  animate__bounceInLeft" style="margin-top: 50px;">
                             <h1 class="fs-12 fw-bolder text-start">Aqua Filter <br><span style="color:white;">online
                                     shop</span> </h1>
                             <p class="d-none d-md-block text-white text-start">There are many different varieties of
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
-                            <img class="w-100" src="assets/images/sp2.png" alt="">
+                            <img class="w-100" src="assets/images/sp2.png" alt="" style="margin-top: 80px;">
                         </div>
 
                     </div>
