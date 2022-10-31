@@ -79,13 +79,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item ">
-                <img src="assets/images/slider/s1.jpg" class="d-block w-100" alt="...">
+                <img src="img/bg/video-bg2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption   d-md-block">
                     <div class="row">
                         <div class="col-lg-6 animate__animated  animate__bounceInLeft text-start ">
-                            <h1 class="fs-12 fw-bolder text-start ">Water Filter <br><span style="color:#4f32e7;">online
+                            <h1 class="fs-12 fw-bolder text-start ">Water Filter <br><span style="color:white;">online
                                     shop</span> </h1>
-                            <p class="text-dark d-none d-md-block text-start">There are many different varieties of
+                            <p class="text-white d-none d-md-block text-start">There are many different varieties of
                                 flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                                 ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.
                             </p>
@@ -101,11 +101,12 @@
                 </div>
             </div>
             <div class="carousel-item active">
-                <img src="assets/images/slider/s3.jpg" class="d-block w-100" alt="...">
+                <img src="img/bg/video-bg2.png" class="d-block w-100" alt="...">
+                <!-- <img src="assets/images/slider/s4.jpg" class="d-block w-100" alt="..."> -->
                 <div class="carousel-caption  d-md-block">
                     <div class="row">
                         <div class="col-lg-6  animate__animated  animate__bounceInLeft">
-                            <h1 class="fs-12 fw-bolder text-start">Aqua Filter <br><span style="color:#4f32e7;">online
+                            <h1 class="fs-12 fw-bolder text-start">Aqua Filter <br><span style="color:white;">online
                                     shop</span> </h1>
                             <p class="d-none d-md-block text-white text-start">There are many different varieties of
                                 flower honey available… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
